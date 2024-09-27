@@ -1,0 +1,214 @@
+/* Base Styles */
+
+
+/* Table styles */
+/* Table styles */
+table-responsive {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.table th, .table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  
+}
+
+.table th {
+  background-color: #f2f2f2;
+  text-align: center;
+
+}
+
+
+/* Button styles */
+button {
+  background-color: #6f0798;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #50056e;
+}
+.buttonedit {
+  background-color: #198754;
+  font-family: 'Times New Roman', Times, serif;
+
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.buttonedit:hover {
+  background-color: #146c43;
+}
+
+
+.buttondelete {
+  background-color: #dc3545;
+  font-family: 'Times New Roman', Times, serif;
+
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.buttondelete:hover {
+  background-color: #bb2d3b;
+}
+
+/* Input field styles */
+/* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+  font-family: 'Times New Roman', Times, serif;/* Could be more or less, depending on screen size */
+}
+
+/* Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Modal_ManageUsers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  max-width: 400px;
+  width: 90%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.Modal_ManageUsers h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Modal_ManageUsers .input-field {
+  margin-bottom: 15px;
+  font-weight: bold;  
+}
+
+.Modal_ManageUsers .label {
+  font-weight: bolder;
+
+}
+
+.Modal_ManageUsers input[type="text"],
+.Modal_ManageUsers input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.Modal_ManageUsers .password-field {
+  position: relative;
+}
+
+.Modal_ManageUsers .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #007bff;
+}
+
+.Modal_ManageUsers .toggle-password:hover {
+  text-decoration: underline;
+}
+
+.Modal_ManageUsers .update-button,
+.Modal_ManageUsers .delete-button,
+.Modal_ManageUsers .cancel-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.Modal_ManageUsers .update-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.Modal_ManageUsers .delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.Modal_ManageUsers .cancel-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+.Modal_ManageUsers .update-button:hover,
+.Modal_ManageUsers .delete-button:hover,
+.Modal_ManageUsers .cancel-button:hover {
+  opacity: 0.8;
+}
+.Bold{
+  font-weight: bold;
+}
+.Bradius{
+  border-radius: 20px;
+}

@@ -1,0 +1,97 @@
+/* Add.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%; /* Adjusted width for responsiveness */
+  max-width: 800px; /* Added max-width to prevent overflowing on larger screens */
+  height: 80vh; /* Set a fixed height with viewport-relative units */
+  overflow-y: auto;
+  font-weight: bold;
+  font-size: 18px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  font-family: 'Times New Roman', Times, serif;
+
+  
+  /* Enable vertical scrolling when content exceeds container height */
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  margin: 10px;
+
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.spacer {
+  margin-bottom: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .form-container {
+    width: 80%; /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .form-container {
+    width: 90%; /* Further adjust width for extra small screens */
+  }
+}
+.addbg{
+  background-color: #2a023a;
+}
+.Bradius{
+  border-radius: 20px;
+}

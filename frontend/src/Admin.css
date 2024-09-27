@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Protest+Guerrilla&display=swap');
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-header {
+  display: flex;
+  margin-top: 35px;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin-bottom to create space between header and buttons */
+}
+.admin-panel {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  padding: 20px;
+  margin-top: 20px; /* Adjust as needed */
+}
+.admin-panel-image {
+  width: 100%; /* Make the image responsive */
+  max-width: 500px; /* Set maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .admin-header {
+    margin-top: 10px; /* Further reduce margin for smaller screens */
+  }
+}
+.admin-title {
+  margin: 10;
+  font-family: "Protest Guerrilla", sans-serif;
+  color: white;
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+.admin-panel {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  padding: 20px;
+  
+}
+
+.admin-buttons {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(200px, 1fr)); /* Adjust min and max width as needed */
+  align-items: center;
+  justify-content: center; /* Center the grid items horizontally */
+  gap: 30px; /* Adjust the gap between buttons */
+  margin-top: 30px; /* Adjust margin-top to reduce space between buttons and image */
+  margin-bottom: 20px;
+  font-weight: bold; /* Add margin-bottom to create space between buttons and footer */
+}
+
+.btn-default {
+  display: block;
+  text-decoration: none;
+  background-color: #6f0798;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  font-size: x-large;
+  border-radius: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.7); /* Add box shadow */
+  width: 100%; /* Set width to 100% to fill the grid cell */
+}
+
+
+.btn-defaultText{
+  text-align: center;
+}
+
+
+/* CSS with Responsive Adjustments */
+.vp {
+  text-align: center; 
+  background: linear-gradient(to right, #55077a, #6f0798);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-size: 6vw; /* Adjust font size based on viewport width */
+  font-style: normal;
+  line-height: 1; /* Adjust line height to prevent text from overflowing */
+}
+
+.pa {
+  background: linear-gradient(to right, #efc02f, #e8c642);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6vw; /* Adjust font size based on viewport width */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .vp {
+    font-size: 12vw; /* Adjust font size for smaller screens */
+  }
+
+  .pa {
+    font-size: 12vw; /* Adjust font size for smaller screens */
+  }
+}
+
+
+.btn-default:hover {
+  background-color: #3a0251;
+}
+
+.btn.btn-danger {
+  background-color: #dc3545;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.7); /* Add box shadow */
+
+}
+
+
+.btn.btn-success {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: #fff;
+  border-radius: 20px;
+
+}
+
+.btn.btn-danger:hover {
+  background-color: #9c1a27;
+}
+.file-input-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.file-input-container input {
+  margin-left: 85px; 
+  border-radius: 1px solid black;/* Adjust spacing between input and button */
+}
+
+
+.btnpurple{
+  background-color: #198754;
+}
+.btnpurple:hover{
+  background-color: #157347;
+}

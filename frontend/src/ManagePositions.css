@@ -1,0 +1,118 @@
+/* ManagerUsers.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  .bus {
+    color: #333;
+  }
+  
+  .position-list {
+    margin-top: 20px;
+  }
+  
+  .position-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .position-list th, .position-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .position-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .position-list button {
+    margin-left: 5px;
+  }
+  
+  .details {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .input-field input,button{
+    text-align: center;
+  }
+  .input-field button{
+    align-items: center;
+  }
+
+  
+  .update-button {
+    background-color: green;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .update-button:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Responsive CSS */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    .position-list table {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .position-list th, .position-list td {
+      padding: 8px;
+    }
+  
+    .update-button {
+      padding: 6px 16px;
+    }
+  }
+  .custom-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .custom-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

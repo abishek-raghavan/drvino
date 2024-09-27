@@ -1,0 +1,677 @@
+/* PatientsFollowUp.css */
+
+.a4-sheet {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  flex: 1;
+  min-width: 150px;
+}
+
+.photo-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: inline-block;
+}
+.vitals {
+  margin-bottom: 20px;
+}
+
+.vitals-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vitals-row {
+  display: flex;
+  gap: 10px; /* Adjust the gap as needed for spacing */
+  flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
+}
+
+.vitals-row input {
+  flex: 1;
+  min-width: 120px; /* Adjust min-width for better fit */
+  box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+.major-complaints {
+  display: flex;
+  flex-direction: column;
+}
+
+.red, .green {
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.tests button, .actions button {
+  margin-right: 10px;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.actions button {
+  margin-right: 10px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+}
+
+.complaints, .local-examination, .diagnosis {
+  margin-bottom: 20px;
+}
+
+.horizontal-container {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed for spacing between sections */
+  flex-wrap: wrap; /* Allows items to wrap if the screen is too narrow */
+}
+
+.major-complaints, .local-examination, .diagnosis {
+  flex: 1;
+  min-width: 200px; /* Adjust as needed for better fit */
+  box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+.major-complaints textarea,
+.local-examination textarea,
+.diagnosis textarea {
+  width: 100%; /* Make textareas take full width of their container */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.major-complaints span,
+.local-examination span,
+.diagnosis span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.history-container {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed for spacing between sections */
+  flex-wrap: wrap; /* Allows items to wrap if the screen is too narrow */
+  margin-bottom: 20px;
+}
+
+.history-box {
+  flex: 1;
+  min-width: 150px; /* Decreased width for each box */
+  max-width: 200px; /* Limit width to prevent too wide boxes */
+  height: 100px; /* Increased height for each box */
+  box-sizing: border-box; /* Ensures padding and border are included in width and height */
+}
+
+.history-box textarea {
+  width: 100%; /* Make textareas take full width of their container */
+  height: 100%; /* Make textareas take full height of their container */
+  box-sizing: border-box; /* Ensure padding and border are included in width and height */
+  resize: none; /* Prevent resizing of the textarea */
+}
+
+.history-box span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.a4-sheet {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  flex: 1;
+  min-width: 150px;
+}
+
+.photo-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: inline-block;
+}
+
+.vitals {
+  margin-bottom: 20px;
+}
+
+.vitals-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vitals-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.vitals-row input {
+  flex: 1;
+  min-width: 120px;
+}
+
+.horizontal-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.horizontal-container > div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.history-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.history-box {
+  flex: 1;
+  min-width: 150px;
+  max-width: 200px;
+  height: 150px;
+}
+
+.history-box textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.examination {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.examination > div {
+  flex: 1;
+}
+
+.examination span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.examination .on-examination label,
+.examination .systematic-examination label {
+  display: block;
+}
+
+.tests {
+  display: flex;
+  gap: 10px;
+}
+
+.tests button {
+  margin-right: 10px;
+}
+
+.treatment, .prescription, .follow-up, .advice {
+  margin-bottom: 20px;
+}
+
+.local-examination, .diagnosis {
+  margin-bottom: 20px;
+}
+
+.a4-sheet {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  flex: 1;
+  min-width: 150px;
+}
+
+.photo-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: inline-block;
+}
+
+.vitals {
+  margin-bottom: 20px;
+}
+
+.vitals-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vitals-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.vitals-row input {
+  flex: 1;
+  min-width: 120px;
+}
+
+.horizontal-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.horizontal-container > div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.history-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.history-box {
+  flex: 1;
+  min-width: 150px;
+  max-width: 200px;
+  height: 150px;
+}
+
+.history-box textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.examination {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.examination > div {
+  flex: 1;
+}
+
+.examination span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.examination .on-examination label,
+.examination .systematic-examination label {
+  display: block;
+}
+
+.tests {
+  display: flex;
+  gap: 10px;
+}
+
+.tests button {
+  margin-right: 10px;
+}
+
+.treatment,
+.prescription,
+.follow-up,
+.advice {
+  margin-bottom: 20px;
+}
+
+.treatment table,
+.prescription table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.treatment th,
+.prescription th,
+.treatment td,
+.prescription td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.treatment th,
+.prescription th {
+  background-color: #f4f4f4;
+}
+
+.treatment button,
+.prescription button {
+  margin-top: 10px;
+}
+
+.a4-sheet {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  flex: 1;
+  min-width: 150px;
+}
+
+.photo-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: inline-block;
+}
+
+.vitals {
+  margin-bottom: 20px;
+}
+
+.vitals-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vitals-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.vitals-row input {
+  flex: 1;
+  min-width: 120px;
+}
+
+.horizontal-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.horizontal-container > div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.history-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.history-box {
+  flex: 1;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.history-box textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.examination {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.examination > div {
+  flex: 1;
+}
+
+.examination span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.examination .on-examination label,
+.examination .systematic-examination label,
+.examination .tests label {
+  display: block;
+}
+
+.tests {
+  display: flex;
+  gap: 10px;
+}
+
+.tests label {
+  display: flex;
+  align-items: center;
+}
+
+.treatment,
+.prescription,
+.follow-up,
+.advice {
+  margin-bottom: 20px;
+}
+
+.treatment table,
+.prescription table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.treatment th,
+.prescription th,
+.treatment td,
+.prescription td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.treatment th,
+.prescription th {
+  background-color: #f4f4f4;
+}
+
+.treatment button,
+.prescription button {
+  margin-top: 10px;
+}
+
+.treatment table input,
+.prescription table input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  flex: 1;
+  min-width: 120px; /* Reduced width for compact display */
+}
+
+.vitals-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap; /* Ensure that all items stay on one line */
+}
+
+.vitals-row input {
+  flex: 1;
+  min-width: 80px; /* Adjusted to make sure inputs fit on one line */
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input {
+  width: 100%;
+}
+
+.contact-form button {
+  margin-top: 10px;
+}
+
+.a4-sheet {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-entry {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-entry input {
+  flex: 1;
+  min-width: 120px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+}
+
+.a4-sheet {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.vitals, .horizontal-container, .history-container, .examination, .treatment, .prescription, .follow-up, .advice, .actions {
+  margin-top: 20px;
+}
+
+.visit-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.visit-buttons button {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.add-visit-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}

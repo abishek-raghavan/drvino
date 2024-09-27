@@ -1,0 +1,100 @@
+.head {
+  height: 100vh;
+  background-color: #e6e6e6; /* Background color for the entire page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inbg {
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.7); /* Add box shadow */
+}
+
+
+.vp {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  transition: font-size 0.3s;
+}
+
+.vp img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.pa {
+  color: #007bff;
+}
+
+.login-txt {
+  margin-bottom: 20px;
+  color: #343a40;
+  transition: font-size 0.3s;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  background-color: #6f0798;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #ffffff;
+  color: #6f0798;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.suggestions li {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.suggestions li:hover {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .inbg {
+    width: 90%;
+  }
+
+  .vp {
+    font-size: 20px;
+  }
+
+  .login-txt {
+    font-size: 18px;
+  }
+}
+.form-control:focus {
+  font-size: 16px; /* Increase font size when input field is focused */
+  padding: 10px; /* Increase padding when input field is focused */
+}

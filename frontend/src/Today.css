@@ -1,0 +1,304 @@
+/* Today.css */
+
+/* Styles for the Today component */
+.Today {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+/* Styles for the header image */
+.admin-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-panel-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styles for the product buttons */
+.product-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Afollowbutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Styles for the filter toggle */
+.Todayfilter-toggle {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Styles for the expanded filter toggle */
+.Todayfilter-toggle.expanded::after {
+  content: "▲";
+}
+
+/* Styles for the filter container */
+.Todayfilter-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the filter labels and inputs */
+.inbody {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inbtn {
+  flex: 1;
+}
+
+.intext {
+  margin-right: 10px;
+}
+
+/* Styles for the suggestions */
+/* Today.css */
+
+/* Styles for the Today component */
+.Today {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+/* Styles for the header image */
+.admin-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-panel-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styles for the product buttons */
+.product-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Afollowbutton {
+  background-color: #6f0798; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Styles for the filter toggle */
+.Todayfilter-toggle {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Styles for the expanded filter toggle */
+.Todayfilter-toggle.expanded::after {
+  content: "▲";
+}
+
+/* Styles for the filter container */
+.Todayfilter-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the filter labels and inputs */
+.inbody {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inbtn {
+  flex: 1;
+}
+
+.intext {
+  margin-right: 10px;
+}
+
+/* Styles for the suggestions */
+.Today .suggestions {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.Today .suggestions.hide {
+  display: none;
+}
+
+.Today .suggestions.show {
+  display: block;
+}
+
+.Today .suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Styles for the table container */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Styles for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styles for the table header */
+.table thead {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the table header cells */
+.table th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the table body */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the table body cells */
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the centered content */
+.centered {
+  text-align: center;
+}
+
+/* Styles for the modal */
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Styles for the modal close button */
+.Modal button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Styles for the modal close button */
+.Modal button:hover {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the table container */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Styles for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styles for the table header */
+.table thead {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the table header cells */
+.table th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the table body */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the table body cells */
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the centered content */
+.centered {
+  text-align: center;
+}
+
+/* Styles for the modal */
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Styles for the modal close button */
+.Modal button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Styles for the modal close button */
+.Modal button:hover {
+  background-color: #f2f2f2;
+}
+.bggreen{
+  background-color: #4CAF50;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}

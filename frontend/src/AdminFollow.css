@@ -1,0 +1,309 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Modal styles */
+.Modal_AdminFollow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto; /* Add vertical scroll when content overflows */
+}
+
+/* Additional styles for content inside the modal */
+.Modal_AdminFollow .label-input-container {
+  max-width: 100%; /* Ensure content does not exceed viewport width */
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .Modal_AdminFollow .label-input-container {
+    padding: 10px;
+  }
+}
+
+/* Adjustments for extra small screens */
+@media (max-width: 480px) {
+  .Modal_AdminFollow .label-input-container {
+    padding: 5px;
+  }
+}
+
+.container-fluid {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.close-btn_AdminFollow {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-btn_AdminFollow:hover {
+  background-color: #ff4832;
+}
+
+/* Container for label and input pairs */
+.label-input-container-wrapper {
+  max-height: 100%; /* Set maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.label-input-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Responsive layout for small screens */
+@media screen and (max-width: 768px) {
+  .label-input-container {
+    flex-direction: column; /* Stack items vertically */
+  }
+}
+
+/* Label styles */
+.intext {
+  flex: 0 0 100%; /* Label takes up full width on small screens */
+  margin-right: 10px;
+  margin-bottom: 5px; 
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+/* Input styles */
+.input_AdminFollow {
+  flex: 0 0 100%; /* Input takes up full width on small screens */
+  margin-bottom: 10px; 
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+/* Button styles */
+.button-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.next-meeting-button {
+  flex: 0 0 100%; /* Button takes up full width on small screens */
+  margin-left: 10px;
+}
+
+/* Page styles */
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-buttons {
+  margin-bottom: 20px;
+}
+
+.AfollowbuttonP {
+  background-color: #6f0798;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.AfollowbuttonP:hover {
+  background-color: #43045d;
+}
+
+.Afollowbuttonsearch {
+  background-color: #198754;
+}
+
+.Afollowbuttonsearch:hover {
+  background-color: #146c43;
+}
+
+.Afollowbuttonspanco {
+  background-color: #038dff;
+}
+
+.Afollowbuttonspanco:hover {
+  background-color: #06518e;
+}
+
+.Afollowbuttonexcel {
+  background-color: #ddbf25d5;
+}
+
+.Afollowbuttonexcel:hover {
+  background-color: #796607e5;
+}
+
+.inbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bus {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inlabel {
+  margin-top: 10px;
+}
+
+/* Additional styles for tables and hover info */
+.table-responsive {
+  overflow-x: auto;
+  overflow-y: auto; /* Add vertical scrolling */
+  max-height: 400px; /* Set a fixed height for the container */
+}
+
+
+/* Styles for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styles for the table header */
+.table thead {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the table header cells */
+.table th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styles for the table header */
+.table thead {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the table header cells */
+.table th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the table body */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table td {
+  padding: 5px; /* Adjust the padding as needed */
+  border-bottom: none; /* Remove the bottom border */
+}
+
+
+/* Styles for the table body */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the table body cells */
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.hover-info {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  z-index: 1;
+}
+
+.hoverable:hover .hover-info {
+  display: block;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 768px) {
+  .intext,
+  .input_AdminFollow,
+  .next-meeting-button {
+    flex: 0 0 100%; /* Set label, input, and button to take full width */
+  }
+}
+
+.selected {
+  background-color: #007bff; /* Change to the desired color */
+  color: white; /* Text color */
+  /* Add any other styles you want to apply to the selected button */
+}
+
+/* Define unique class for the spanco modal */
+.SpancoModal {
+  /* Modal styles */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  width: 50%; /* Adjust modal width as needed */
+  max-width: 600px; /* Set maximum width */
+  z-index: 1000;
+}
+
+/* Additional styles for Spanco modal content */
+.SpancoModal .modal-content {
+  /* Add styles for modal content here */
+}
+
+/* Adjust modal styles for small screens */
+@media only screen and (max-width: 768px) {
+  .SpancoModal {
+    width: 80%; /* Adjust width for small screens */
+  }
+}

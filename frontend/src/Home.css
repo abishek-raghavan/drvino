@@ -1,0 +1,81 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+}
+.nav{
+  background-color: #55077a;
+}
+.admin-panel-image {
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.admin-title {
+  margin: 10;
+  font-family: "Protest Guerrilla", sans-serif;
+  color: white;
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+.admin-panel {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  padding: 20px;
+  
+  
+}
+
+.admin-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 180px; /* Add margin to move buttons down */
+}
+
+.btn-default {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-default:hover {
+  background-color: #ccc;
+}
+
+.btn.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn.btn-danger:hover {
+  background-color: #c82333;
+}
+.file-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.file-input-container input {
+  margin-right: 10px; /* Adjust spacing between input and button */
+}
