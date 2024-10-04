@@ -1,146 +1,33 @@
-.Box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-/* Styles for the form container */
-.box {
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-  width: 80%;
-  overflow-y: auto;
-  max-height: 80vh;
-}
-
-
-/* Styles for form input fields and labels */
-.input-container {
-  margin-bottom: 20px;
-}
-
-.input-container h1 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-  text-align: left;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.form-control {
-  width: 100%;
-  padding: 8px;
-  font-size: 15px;
-  border: 1px solid #ccc;
-  border-radius: 15px;
+.title{
   text-align: center;
-  font-weight: bolder;
-  font-family: 'Times New Roman', Times, serif;
-
 }
-
-/* Styles for buttons */
-.button-container {
+.vitals-container {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around
 }
 
-.button-container button {
-  padding: 10px 20px;
-  font-size: 18px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
+.vitals-column {
+  flex: 1;
 }
 
-/* Styles for FontAwesome icons */
-.phone-icon{
-  color: #007bff;
-  font-size: 1.7rem;
+.label {
+  display: inline-block;
+  width: 120px; 
+  text-align: right;
+}
+
+.value {
   margin-left: 5px;
 }
 
-
-.whatsapp-icon {
-    color: #25D366 ;
-    font-size: 1.7rem;
-    margin-left: 5px;
-  }
-/* Styles for PDF preview modal */
-.pdf-modal .modal-dialog {
-  max-width: 80%; /* Adjust modal width as needed */
-}
-
-.pdf-modal .modal-body {
-  padding: 0;
-}
-
-.pdf-modal iframe {
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
   width: 100%;
-  height: 500px;
-  border: none;
 }
 
-/* Responsive styles for note text */
-.pdf-modal .modal-body .note-text {
-  width: 100%;
-  margin-top: 10px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
-.btndelete{
-    background-color: #dc3545;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-
-}
-.btndelete:hover{
-    background-color: #bb2d3b;
-}
-.btngreen{
-    background-color: #198754;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-  }
-.btnblue{
-  background-color: #0d6efd;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-  margin-bottom: 10px; /* Add margin bottom to create space */
-
-}
-.btnblue:hover{
-  background-color: #0a3e8d;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-
-}
-.btngreen:hover{
-    background-color: #146c43;
-    font-family: 'Times New Roman', Times, serif;
-}
-.formbg{        
-  background-color: #2a023a;
-}
-.bus{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-  }
-  .txttime {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: #6f0798;
-    text-decoration: underline; /* Add underline */
-  }
-  
